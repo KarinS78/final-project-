@@ -36,3 +36,14 @@ CREATE TABLE "Countries" (
 	FOREIGN KEY("code_Al") REFERENCES "Flights"("dest_country_id"),
 	PRIMARY KEY("code_Al" AUTOINCREMENT)
 );
+
+*******************************************************
+notes: 
+--INSERT INTO Countries
+--VALUES(1,'israel')
+select * FROM Countries
+--UPDATE Countries
+
+res:
+https://www.tutorialspoint.com/python_data_access/python_sqlite_cursor_object.htm
+--SET name='canada' WHERE code_Al=2
